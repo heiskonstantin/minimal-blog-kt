@@ -16,7 +16,7 @@ body {
 }
 
 .header-search__form::before {
-    content: url(/project_kt/images/src_icon.svg);
+    content: url(/./images/src_icon.svg);
     position: relative;
     top: 3px;
 }
@@ -89,7 +89,7 @@ body {
 }
 
 .main-screen__title::after {
-    content: url(/project_kt/images/cup.png);
+    content: url(/./images/cup.png);
     position: relative;
     top: 18px;
 }
