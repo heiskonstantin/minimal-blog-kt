@@ -16,180 +16,192 @@
 <body>
     <header>
 
-        <div class="container container__header-nav">
+        <section class="container header">
 
-            <div class="header-logo">
-                <a href="../pages/home-page.html"><img src="../images/hc_logo.svg" alt="HotCoffee logo" class="hc-logo"></a>
+            <div class="header__logo">
+                <a href="../pages/home-page.html"><img src="../images/hc_logo.svg" alt="HotCoffee logo"
+                        class="hc-logo"></a>
             </div>
 
-            <div class="header-search__form">
+            <div class="header__search">
                 <input class="form-input" type="text" placeholder="Search...">
             </div>
 
-            <div class="header-nav">
-                <nav class="header-nav-items">
-
-                    <ul class="header-list">
-                        <li class="header-item"><a href="../pages/home-page.html" class="header-link">Home</a></li>
-                        <li class="header-item"><a href="../pages/details.html" class="header-link">Articles</a></li>
-                        <li class="header-item"><a href="https://www.instagram.com/hotcoffee/" class="header-link">
-                                <img src="../images/inst_logo.svg" alt="instagram logo" class="header__logo-link"></a>
-                        </li>
-                        <li class="header-item"><a href="https://www.twitter.com/hotcoffee/" class="header-link">
-                                <img src="../images/twitter_logo.svg" alt="twitter logo" class="header__logo-link"></a>
-                        </li>
-                        <li class="header-item"><a href="https://www.linkedin.com/hotcoffee/" class="header-link">
-                                <img src="../images/linkedin_logo.svg" alt="linkedin logo" class="header__logo-link"></a>
-                        </li>
+            <div class="header__nav">
+                <nav class="header__nav-items">
+                    <ul class="nav-list">
+                        <li class="nav-list__items"> <a href="../pages/home-page.html" class="nav-link">Home</a> </li>
+                        <li class="nav-list__items"> <a href="../pages/details.html" class="nav-link">Articles</a> </li>
+                        <li class="nav-list__items"> <a href="https://www.instagram.com/hotcoffee/" class="nav-link">
+                                <img src="../images/inst_logo.svg" alt="instagram logo" class="logo-link"></a> </li>
+                        <li class="nav-list__items"><a href="https://www.twitter.com/hotcoffee/" class="nav-link">
+                                <img src="../images/twitter_logo.svg" alt="twitter logo" class="logo-link"></a> </li>
+                        <li class="nav-list__items"><a href="https://www.linkedin.com/hotcoffee/" class="nav-link">
+                                <img src="../images/linkedin_logo.svg" alt="linkedin logo" class="logo-link"></a> </li>
                     </ul>
-
                 </nav>
             </div>
-        </div>
+
+        </section>
 
     </header>
 
     <main>
         <section class="main-screen">
+
             <div class="container main-screen__content">
+
                 <div class="main-screen__info">
                     <h1 class="main-screen__title">Make better coffee</h1>
                     <p class="main-screen__subtitle">why learn how to blog?</p>
                 </div>
-                <img src="../images/croods.png" alt="guys working" srcset="../images/croods2x.png 2x">
+
+                <img src="../images/croods.png" alt="guys working" srcset="../images/croods2x.png 2x" class="main-screen__image">
+
             </div>
+
         </section>
 
         <section class="news-article">
-            <div class="container news-article__content">
-                <div class="news-article__info">
-                    <h2 class="title-news-article__info">long established</h2>
-                    <p class="subtitle-news-article__info">It is a long established fact that a reader will be
-                        distracted by the
-                        readable content of a page
-                        when looking at its layout. The point of using Lorem Ipsum is that....</p>
-                    <div class="news-article__desc">
-                        <p class="date-news__desc">May 20th 2020</p>
-                        <a href="../pages/details.html" class="readmore-news__desc">Read more</a>
+
+            <div class="container news-article-content">
+                <div class="news-info">
+                    <h2 class="news-info__title">long established</h2>
+                    <p class="news-info__subtitle">It is a long established fact that a reader will be distracted by the
+                        readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
+
+                    <div class="news-desc">
+                        <p class="news-desc__date">May 20th 2020</p>
+                        <a href="../pages/details.html" class="news-desc__readmore">Read more</a>
                     </div>
                 </div>
-                <img src="../images/man.png" srcset="../images/man2x.png 2x" alt="man with laptop" class="image-news__info">
+                <img src="../images/man.png" srcset="../images/man2x.png 2x" alt="man with laptop" class="news-article-content__image">
             </div>
+
         </section>
 
-        <section class="news-articles">
-            <div class="news-articles__content">
-                <div class="img-news-articles">
-                    <img src="../images/laptop.png" srcset="../images/laptop2x.png 2x" alt="laptop"
-                        class="image-news-articles">
+        <section class="container news-cards">
+
+            <div class="news-cards-content">
+
+                <div class="news-cards-image">
+                    <img src="../images/laptop.png" srcset="../images/laptop2x.png 2x" alt="laptop" class="news-cards-image__image">
                 </div>
 
-                <div class="news-articles__info">
-                    <h2 class="title-news-articles__info"> long established </h2>
-                    <p class="subtitle-news-article__info"> It is a long established fact that a reader will be
-                        distracted by the
-                        readable content of a page when looking at its layout. The point of using Lorem Ipsum is
-                        that....</p>
+                <div class="news-cards-info">
+                    <h2 class="news-cards-info__title"> long established </h2>
+                    <p class="news-info__subtitle"> It is a long established fact that a reader will be distracted by the
+                        readable content of a page when looking at its layout. The point of using Lorem Ipsum is that....</p>
 
-                    <div class="news-article__desc">
-                        <p class="date-news__desc">May 20th 2020</p>
-                        <a href="../pages/details.html" class="readmore-news__desc">Read more</a>
+                    <div class="news-desc">
+                        <p class="news-desc__date">May 20th 2020</p>
+                        <a href="../pages/details.html" class="news-desc__readmore">Read more</a>
                     </div>
                 </div>
+
             </div>
-            </div>
-            <div class="news-articles__content">
-                <div class="img-news-articles">
+
+            <div class="news-cards-content">
+
+                <div class="news-cards-image">
                     <img src="../images/people.png" srcset="../images/people2x.png 2x" alt="laptop"
-                        class="image-news-articles">
+                        class="news-cards-image__image">
                 </div>
 
-                <div class="news-articles__info">
-                    <h2 class="title-news-articles__info"> long established </h2>
-                    <p class="subtitle-news-article__info"> It is a long established fact that a reader will be
+                <div class="news-cards-info">
+                    <h2 class="news-cards-info__title"> long established </h2>
+                    <p class="news-info__subtitle"> It is a long established fact that a reader will be
                         distracted by the
                         readable content of a page when looking at its layout. The point of using Lorem Ipsum is
                         that....
                     </p>
 
-                    <div class="news-article__desc">
-                        <p class="date-news__desc">May 20th 2020</p>
-                        <a href="../pages/details.html" class="readmore-news__desc">Read more</a>
+                    <div class="news-desc">
+                        <p class="news-desc__date">May 20th 2020</p>
+                        <a href="../pages/details.html" class="news-desc__readmore">Read more</a>
                     </div>
                 </div>
+
             </div>
 
-            <div class="news-articles__content">
-                <div class="img-news-articles">
+            <div class="news-cards-content">
+
+                <div class="news-cards-image">
                     <img src="../images/laptoptable.png" srcset="../images/laptoptable2x.png 2x" alt="laptop"
-                        class="image-news-articles">
+                        class="news-cards-image__image">
                 </div>
 
-                <div class="news-articles__info">
-                    <h2 class="title-news-articles__info"> long established </h2>
-                    <p class="subtitle-news-article__info"> It is a long established fact that a reader will be
+                <div class="news-cards-info">
+                    <h2 class="news-cards-info__title"> long established </h2>
+                    <p class="news-info__subtitle"> It is a long established fact that a reader will be
                         distracted by the
                         readable content of a page when looking at its layout. The point of using Lorem Ipsum is
                         that....
                     </p>
-                    <div class="news-article__desc">
-                        <p class="date-news__desc">May 20th 2020</p>
-                        <a href="../pages/details.html" class="readmore-news__desc">Read more</a>
+
+                    <div class="news-desc">
+                        <p class="news-desc__date">May 20th 2020</p>
+                        <a href="../pages/details.html" class="news-desc__readmore">Read more</a>
                     </div>
                 </div>
-            </div>
+
             </div>
         </section>
 
         <section class="news-banner">
 
-                <div class="container news-banner__info">
-                        <h2 class="title-news-banner__info">What is Lorem Ipsum?</h2>
-                    <p class="subtitle-news-banner__info">It is a long established fact that a reader will be
-                        distracted by the readable content of a page when looking at its layout. The point of using
-                        Lorem
-                        Ipsum is that it has a more-or-less normal distribution...</p>
-                    <div class="news-article__desc">
-                        <p class="date-news-banner__desc">May 20</p>
-                        <a href="../pages/details.html" class="readmore-news-banner__desc">Read more</a>
-                    </div>
+            <div class="container news-banner-info">
 
-                    
-                    
+                <h2 class="news-banner-info__title">What is Lorem Ipsum?</h2>
+                <p class="news-banner-info__subtitle">It is a long established fact that a reader will be distracted by the readable content of a page 
+                    when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution...</p>
+
+                <div class="news-desc">
+                    <p class="news-banner-desc__date">May 20</p>
+                    <a href="../pages/details.html" class="news-banner-desc__readmore">Read more</a>
                 </div>
-                <div>
-                    <img src="../images/biglaptop.png" srcset="../images/biglaptop2x.png 2x" alt="laptop"
-                        class="image-news-banner__info">
-                </div>
-            
+
+            </div>
+
+            <div>
+                <img src="../images/biglaptop.png" srcset="../images/biglaptop2x.png 2x" alt="laptop" class="news-banner__image">
+            </div>
+
         </section>
 
-        <div class="button-down">
-            <button class="down">See more <img src="../images/arrow_down.svg" alt="button arrow down" class="img-down"></button>
+        <div class="button-seemore">
+
+            <button class="seemore">See more <img src="../images/arrow_down.svg" alt="button arrow down to see more news" class="seemore-image"></button>
+
         </div>
+
     </main>
 
     <footer>
+
         <section class="footer">
-        <div class="footer-container">
-            <div class="footer-container__text">
-                <p class="copyright">
-                    <a href="../pages/home-page.html" class="hotcoffee">hotcoffee</a> 2020 copyright all rights reserved
-                </p>
+
+            <div class="footer-content">
+
+                <div class="footer-content__text">
+                    <p class="copyright">
+                    <a href="../pages/home-page.html" class="company-name">hotcoffee</a> 2020 copyright all rights reserved</p>
+                </div>
+
+                <div class="footer-content__links">
+                    <a href="https://www.instagram.com/hotcoffee/" class="footer-link"> <img
+                            src="../images/inst_logo.svg" alt="instagram logo" class="logo-link"></a>
+                    <a href="https://www.twitter.com/hotcoffee/" class="footer-link"> <img
+                            src="../images/twitter_logo.svg" alt="twitter logo" class="logo-link"></a>
+                    <a href="https://www.linkedin.com/hotcoffee/" class="footer-link"> <img
+                            src="../images/linkedin_logo.svg" alt="linkedin logo" class="logo-link"></a>
+                </div>
+
             </div>
 
-            <div class="footer-container__links">
-                <a href="https://www.instagram.com/hotcoffee/" class="footer-link"> <img
-                    src="../images/inst_logo.svg" alt="instagram logo" class="logo-link"></a>
-                    <a href="https://www.twitter.com/hotcoffee/" class="footer-link"> <img
-                        src="../images/twitter_logo.svg" alt="twitter logo" class="logo-link"></a>
-                        <a href="https://www.linkedin.com/hotcoffee/" class="footer-link"> <img
-                            src="../images/linkedin_logo.svg" alt="linkedin logo" class="logo-link"></a>
-            </div>
-        </div>    
         </section>
-        
-</footer>
+
+    </footer>
 
 </body>
 

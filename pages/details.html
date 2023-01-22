@@ -16,52 +16,46 @@
 <body>
     <header>
 
-        <div class="container container__header-nav">
+        <section class="container header">
 
-            <div class="header-logo">
+            <div class="header__logo">
                 <a href="../pages/home-page.html"><img src="../images/hc_logo.svg" alt="HotCoffee logo"
                         class="hc-logo"></a>
             </div>
 
-            <div class="header-search__form">
+            <div class="header__search">
                 <input class="form-input" type="text" placeholder="Search...">
             </div>
 
-            <div class="header-nav">
-                <nav class="header-nav-items">
-
-                    <ul class="header-list">
-                        <li class="header-item"><a href="../pages/home-page.html" class="header-link">Home</a>
-                        </li>
-                        <li class="header-item"><a href="../pages/details.html"
-                                class="header-link">Articles</a></li>
-                        <li class="header-item"><a href="https://www.instagram.com/hotcoffee/" class="header-link">
-                                <img src="../images/inst_logo.svg" alt="instagram logo" class="header__logo-link"></a>
-                        </li>
-                        <li class="header-item"><a href="https://www.twitter.com/hotcoffee/" class="header-link">
-                                <img src="../images/twitter_logo.svg" alt="twitter logo" class="header__logo-link"></a>
-                        </li>
-                        <li class="header-item"><a href="https://www.linkedin.com/hotcoffee/" class="header-link">
-                                <img src="../images/linkedin_logo.svg" alt="linkedin logo" class="header__logo-link"></a>
-                        </li>
+            <div class="header__nav">
+                <nav class="header__nav-items">
+                    <ul class="nav-list">
+                        <li class="nav-list__items"> <a href="../pages/home-page.html" class="nav-link">Home</a> </li>
+                        <li class="nav-list__items"> <a href="../pages/details.html" class="nav-link">Articles</a> </li>
+                        <li class="nav-list__items"> <a href="https://www.instagram.com/hotcoffee/" class="nav-link">
+                                <img src="../images/inst_logo.svg" alt="instagram logo" class="logo-link"></a> </li>
+                        <li class="nav-list__items"><a href="https://www.twitter.com/hotcoffee/" class="nav-link">
+                                <img src="../images/twitter_logo.svg" alt="twitter logo" class="logo-link"></a> </li>
+                        <li class="nav-list__items"><a href="https://www.linkedin.com/hotcoffee/" class="nav-link">
+                                <img src="../images/linkedin_logo.svg" alt="linkedin logo" class="logo-link"></a> </li>
                     </ul>
-
                 </nav>
             </div>
-        </div>
+
+        </section>
 
     </header>
 
     <main>
-        <div class="container blog-post__img">
-            <img src="../images/mandetails.png" alt="man with laptop" srcset="../images/mandetails2x.png 2x">
+        <div class="container blog-post-image">
+            <img src="../images/mandetails.png" alt="man with laptop" srcset="../images/mandetails2x.png 2x" class="blog-post-image__image">
         </div>
 
-        <section class="blog-post__container">
-            <div class="blog-post__details">
-                <h1 class="title blog-post__title">Finibus Bonorum et Malorum</h1>
-                <p class="blog-post__author">Written by John doe <span class="blog-post__date">Monday <span
-                            class="may">May 20</span></span> </p>
+        <section class="blog-post-container">
+            <div class="blog-post-info">
+                <h1 class="blog-post-info__title">Finibus Bonorum et Malorum</h1>
+                <p class="blog-post-info__author">Written by John doe <span class="blog-post-info__date">Monday <span
+                            class="blog-post-info-month">May 20</span></span> </p>
             </div>
 
             <p class="blog-post__text">Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
@@ -88,7 +82,7 @@
                 who avoids a pain that produces no resultant pleasure?"
             </p>
 
-            <h4 class="title-italic">Section 1.10.33 of "de Finibus Bonorum et Malorum"</h4>
+            <h4 class="blog-post__title-italic">Section 1.10.33 of "de Finibus Bonorum et Malorum"</h4>
 
             <p class="blog-post__text">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                 praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -100,7 +94,7 @@
                 earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur
                 aut perferendis doloribus asperiores repellat."</p>
 
-            <h3 class="title-section">Section</h3>
+            <h3 class="blog-post__title-section">Section</h3>
 
             <p class="blog-post__text">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                 praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -112,7 +106,7 @@
                 earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur
                 aut perferendis doloribus asperiores repellat."</p>
 
-            <h2 class="title-section1">Section 1.10.33</h2>
+            <h2 class="blog-post__title-section1">Section 1.10.33</h2>
 
             <p class="blog-post__text">"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
                 praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
@@ -135,22 +129,23 @@
                 perferendis doloribus asperiores repellat."</p>
         </section>
 
-        <div class="button-up">
-            <button class="up"> <img src="../images/arrow_up.svg" alt="arrow up" class="img-up"> </button>
+        <div class="button-page-up">
+            <button class="page-up"> <img src="../images/arrow_up.svg" alt="arrow up" class="button-up-image"> </button>
         </div>
     </main>
 
     <footer>
+
         <section class="footer">
-            <div class="footer-container">
-                <div class="footer-container__text">
+
+            <div class="footer-content">
+
+                <div class="footer-content__text">
                     <p class="copyright">
-                        <a href="../pages/home-page.html" class="hotcoffee">hotcoffee</a> 2020 copyright all
-                        rights reserved
-                    </p>
+                    <a href="../pages/home-page.html" class="company-name">hotcoffee</a> 2020 copyright all rights reserved</p>
                 </div>
 
-                <div class="footer-container__links">
+                <div class="footer-content__links">
                     <a href="https://www.instagram.com/hotcoffee/" class="footer-link"> <img
                             src="../images/inst_logo.svg" alt="instagram logo" class="logo-link"></a>
                     <a href="https://www.twitter.com/hotcoffee/" class="footer-link"> <img
@@ -158,8 +153,11 @@
                     <a href="https://www.linkedin.com/hotcoffee/" class="footer-link"> <img
                             src="../images/linkedin_logo.svg" alt="linkedin logo" class="logo-link"></a>
                 </div>
+
             </div>
+
         </section>
 
     </footer>
+
 </body>
